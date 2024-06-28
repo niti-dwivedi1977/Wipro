@@ -276,6 +276,62 @@ String designation;
 
 
 
+WEB SERVICES
+
+The services that are available on the internet 
+
+webservices enables the communication between web application
+
+It follows a simple architecture client (Consumer) & server (Produce) -- HTTP --
+
+Format ( XMl/ JSON)
+
+Services --- > API --- > Application programming interface
+
+Customer - (C) Makemytrip:  (B) api looking for from indigo (B) are
+
+Applications ( synchronous / Asynchronous ( React) Java script
+
+B2B -- Soap based
+B2C -- Rest  based 
+
+APIs -- Http provides below methods 
+get -- get all flights
+post -- posting the details --- It is not visible on the url
+put -- Update the flight details
+delete -- Cancel the flight 
+
+Rest Webservices 
+
+Principles
+1) Uniform interface
+
+resource -- Noun (Name)
+URI -- how other vendor fetch the  data ( Resource / API) 
+HTTP -- Verbs (Action)
+Get (Getall / Get based on criteria (Filter)  / POST /PUT /DELETE
+
+
+2) Stateless
+As http is a stateless protocol
+
+3) Cacheable  ( For fast retreival)
+
+it will be there in the memory and will not hit to the server again if there is no update
+
+4) Layered System
+Client ---- proxies(VPN) ---- Gateways (Payment --Payment gateway Banks) ------server
+
+5) Code on Demand (Optional)
+
+Spring Boot -- Project  -- Framework -- used to design web based applications
+
+spring boot initializer -- start.spring.io
+
+Maven - -Build tool 
+
+
+
 
 
 
